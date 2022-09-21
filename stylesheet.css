@@ -1,4 +1,10 @@
-.title {
-    color: #02ccba;
-  }
-  
+.small{
+  font: size 80%;
+}
+
+.logo{
+  background-color: rgba(red, green, blue, alpha);
+  padding: 5px 10px;
+  width: 100%;
+  display: block;
+}
