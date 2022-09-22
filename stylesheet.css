@@ -1,5 +1,14 @@
 .small{
-  font: size 80%;
+  font-size: 80%;
+}
+
+h1{
+  font-size: 60px;
+  padding: 0px 0px;
+}
+
+h2{
+  font-size: 25px;
 }
 
 .logo{
