@@ -1,20 +1,14 @@
+
 .small{
-  font-size: 80%;
+  font-size: 10.56px;
+  font-family: YuGothic;
 }
 
-h1{
-  font-size: 60px;
-  padding: 0px 0px;
-}
-
-h2{
-  font-size: 25px;
-}
-
-
-.logo{
-  background-color: rgba(red, green, blue, alpha);
-  padding: 5px 10px;
-  width: 100%;
+a{
+  width: 313.58px;
+  height: 53px;
+  margin: 15px 0px 0px;
   display: block;
 }
+
+
