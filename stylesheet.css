@@ -1,14 +1,38 @@
-
-.small{
-  font-size: 10.56px;
-  font-family: YuGothic;
+header{
+  font-family: "Yu Gothic Medium";
 }
 
-a{
+small {
+  font-size: 12px;
+}
+
+a {
   width: 313.58px;
   height: 53px;
   margin: 15px 0px 0px;
   display: block;
 }
 
+/*ギフトセット*/
+ul{
+  display: inline;
+  display: flex;
+  float: right;
+}
 
+li{
+  font-size: 18px;
+  padding: 11px 27px 16px 30px;
+  list-style: none;
+  
+}
+
+li::before {
+  content: "∨ ";
+}
+
+/*ギフトセット　hover時*/
+li:hover{
+  color: aliceblue;
+  background-color: blue;
+}
