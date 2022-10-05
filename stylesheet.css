@@ -29,34 +29,34 @@ li{
   display: inline-block;
 }
 
- .list::before{
-  content: "";
-  width: 8px;
-  height: 8px;
-  margin-top: -5px;
-  border-top: solid 1px #555;   
-  border-right: solid 1px #555;   
-  transform: rotate(135deg);
-  position: absolute;
-  top: 50%;
-  right: -20px;    
+ .list::before{ /*listクラスの前に擬似要素を用いる*/
+  content: ""; /*””の中の要素の前に擬似要素を用いる*/
+  width: 8px; /*幅8px*/
+  height: 8px; /*高さ8px*/
+  margin-top: -5px; /*ネガティブマージン(親要素からはみ出す)。上に5pxずらす*/
+  border-top: solid 1px #555;   /* ボーダーライン(上)を実線に指定。1px。灰色の暗さの中間の色合い */
+  border-right: solid 1px #555;   /* ボーダーライン(右)を実線に指定。1px。灰色の暗さの中間の色合い */
+  transform: rotate(135deg); /*要素を時計回りに135度回転する*/
+  position: absolute; /*絶対位置で配置(相対じゃない、起点からの距離)*/
+  top: 25px; /*要素の上からの配置は50%*/
+  left: 10px;    /*要素の左から10pxの位置*/
 }
 
 .menu{
   display: inline;
 }
 
-.menu-icon::before{
-  content: "";
-  width: 8px;
-  height: 8px;
-  margin-top: -5px;
-  border-top: solid 1px #555;   
-  border-right: solid 1px #555;   
-  transform: rotate(135deg);
-  position: absolute;
-  top: 50%;
-  right: -20px;
+.menu-icon::before{    /**/
+  content: ""; /*””の中の要素の前に擬似要素を用いる*/
+  width: 8px; /*幅8px*/
+  height: 8px; /*高さ8px*/
+  margin-top: -5px; /*ネガティブマージン(親要素からはみ出す)。上に5pxずらす*/
+  border-top: solid 1px #555;    /* ボーダーライン(上)を実線に指定。1px。灰色の暗さの中間の色合い */
+  border-right: solid 1px #555;   /*ボーダーライン(右)*/
+  transform: rotate(45deg); /*要素を時計回りに45度回転する*/
+  position: absolute;/*絶対位置で配置(相対じゃない、起点からの距離)*/
+  top: 50%;/*要素の上からの配置は50%*/
+  left: 10px;/*要素の左から10pxの位置*/
 }
 
 /*ギフトセットhover時*/
