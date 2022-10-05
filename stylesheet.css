@@ -1,4 +1,67 @@
-.title {
-    color: #02ccba;
-  }
-  
+header{
+  font-family: "Yu Gothic Medium";
+}
+
+small {
+  font-size: 12px;
+}
+
+a {
+  width: 313.58px;
+  height: 53px;
+  margin: 15px 0px 0px;
+  display: block;
+}
+
+/*ギフトセットなど*/
+
+ul{
+  display: inline;
+  display: flex;
+  float: right;
+}
+
+li{
+  font-size: 18px;
+  padding: 11px 27px 16px 30px;
+  list-style: none;
+  position: relative;
+  display: inline-block;
+}
+
+ .list::before{
+  content: "";
+  width: 8px;
+  height: 8px;
+  margin-top: -5px;
+  border-top: solid 1px #555;   
+  border-right: solid 1px #555;   
+  transform: rotate(135deg);
+  position: absolute;
+  top: 50%;
+  right: -20px;    
+}
+
+.menu{
+  display: inline;
+}
+
+.menu-icon::before{
+  content: "";
+  width: 8px;
+  height: 8px;
+  margin-top: -5px;
+  border-top: solid 1px #555;   
+  border-right: solid 1px #555;   
+  transform: rotate(135deg);
+  position: absolute;
+  top: 50%;
+  right: -20px;
+}
+
+/*ギフトセットhover時*/
+
+li:hover{
+  color: aliceblue;
+  background-color: blue;
+}
